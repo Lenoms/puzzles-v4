@@ -1,0 +1,14 @@
+.level-1-div {
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.level-1-container {
+    height: 10%;
+    width: 10%;
+    background-color: red;
+}
