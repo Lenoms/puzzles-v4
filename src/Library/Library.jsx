@@ -6,6 +6,7 @@ function Library() {
     <div className="library-container">
       <div className="library-ceiling">
         <div className="light"></div>
+        <div class="flame"></div>
       </div>
       <div className="bookshelf-row">
         <Bookshelf />

@@ -4,7 +4,11 @@ function Book(props) {
   return (
     <div
       className="book"
-      style={{ backgroundColor: props.colour, height: `${props.height}%` }}
+      style={{
+        background: props.colour,
+        background: `linear-gradient(180deg, ${props.colour} 0%, rgb(0, 0, 0) 100%)`,
+        height: `${props.height}%`,
+      }}
     ></div>
   );
 }
