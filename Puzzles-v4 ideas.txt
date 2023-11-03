@@ -1,0 +1,14 @@
+
+Level ideas
+
+- Binary torches - 3 of them? depending on the value of the binary number, they show different letters. When ordered 1-7, they make the password
+- Piano level - maybe the things you need to play are in previous levels
+- Torch and darkness level, like my one from round 2. 
+- A level where it just shows html text? one css property is slightly different. Change that css property in the actual code and somehow that reveals the answer... is that possible?
+
+Setting
+
+The game is set in a library. Clicking into each book shows a level, and the aim is to get the title of each book.
+
+Potential end? They player finds one more book, with the story of their own gameplay in it. It ends by saying how the player comes to understand that their mastery of the books has made them the master of the library, and they will ensure the libraries secrets are kept safe forever. The end.
+I like the idea of having timestamps in the book? How would this work if the player leaves the game and comes back... maybe we dont care.

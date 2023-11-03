@@ -1,6 +1,5 @@
-import { useEffect } from "react";
 import "./App.css";
-import One from "./Levels/1/One";
+import Library from "./Library/Library";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
           height: `${window.innerHeight}px`,
         }}
       >
-        <One />
+        <Library />
       </div>
     </div>
   );

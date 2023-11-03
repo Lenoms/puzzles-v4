@@ -1,0 +1,16 @@
+.bookshelf-container {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(103, 0, 0);
+    border: 3px solid burlywood;
+    display: flex;
+    flex-direction: column;
+}
+
+.bookshelf-shelf {
+    width: 100%;
+    height: 33.33%;
+    display: flex;
+    border-bottom: 5px solid black;
+    align-items: flex-end;
+}
