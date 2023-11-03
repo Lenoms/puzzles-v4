@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/puzzles-v4/static/css/main.a5ae4c03.css",
-    "main.js": "/puzzles-v4/static/js/main.11a23109.js",
+    "main.css": "/puzzles-v4/static/css/main.f26db943.chunk.css",
+    "main.js": "/puzzles-v4/static/js/main.6c04916e.chunk.js",
+    "main.js.map": "/puzzles-v4/static/js/main.6c04916e.chunk.js.map",
+    "runtime-main.js": "/puzzles-v4/static/js/runtime-main.0d405017.js",
+    "runtime-main.js.map": "/puzzles-v4/static/js/runtime-main.0d405017.js.map",
+    "static/js/2.5bdc916f.chunk.js": "/puzzles-v4/static/js/2.5bdc916f.chunk.js",
+    "static/js/2.5bdc916f.chunk.js.map": "/puzzles-v4/static/js/2.5bdc916f.chunk.js.map",
     "index.html": "/puzzles-v4/index.html",
-    "main.a5ae4c03.css.map": "/puzzles-v4/static/css/main.a5ae4c03.css.map",
-    "main.11a23109.js.map": "/puzzles-v4/static/js/main.11a23109.js.map"
+    "static/css/main.f26db943.chunk.css.map": "/puzzles-v4/static/css/main.f26db943.chunk.css.map",
+    "static/js/2.5bdc916f.chunk.js.LICENSE.txt": "/puzzles-v4/static/js/2.5bdc916f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.a5ae4c03.css",
-    "static/js/main.11a23109.js"
+    "static/js/runtime-main.0d405017.js",
+    "static/js/2.5bdc916f.chunk.js",
+    "static/css/main.f26db943.chunk.css",
+    "static/js/main.6c04916e.chunk.js"
   ]
 }
