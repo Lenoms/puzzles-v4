@@ -1,5 +1,5 @@
 import "./App.css";
-import Library from "./Library/Library";
+import GameRoutes from "./routes/GameRoutes";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
           height: `${window.innerHeight}px`,
         }}
       >
-        <Library />
+        <GameRoutes />
       </div>
     </div>
   );

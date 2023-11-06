@@ -1,4 +1,4 @@
-export function getRandomBookValues(n) {
+export function getRandomBookValues(n, levels) {
   // Define a list of 10 possible colors
   const colourOptions = [
     "rgb(128, 0, 0)", // Dark Red
@@ -38,4 +38,13 @@ export function getRandomBookValues(n) {
   }
 
   return books;
+}
+
+export function levelExistsAtBookIndex(array, i, j) {
+  for (let index = 0; index < array.length; index++) {
+    if (array[index].coords[0] === i && array[index].coords[1] === j) {
+      return index;
+    }
+  }
+  return -1;
 }

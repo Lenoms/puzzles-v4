@@ -1,4 +1,5 @@
 import Bookshelf from "./Bookshelf";
+import { bookshelfOneLevels, bookshelfTwoLevels } from "./Library.constants";
 import "./Library.css";
 
 function Library() {
@@ -9,8 +10,8 @@ function Library() {
         <div class="flame"></div>
       </div>
       <div className="bookshelf-row">
-        <Bookshelf />
-        <Bookshelf />
+        <Bookshelf bookshelfLevels={bookshelfOneLevels}/>
+        <Bookshelf bookshelfLevels={bookshelfTwoLevels}/>
       </div>
       <div className="library-floor"></div>
     </div>
