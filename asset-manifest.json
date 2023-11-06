@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/puzzles-v4/static/css/main.977049e6.chunk.css",
-    "main.js": "/puzzles-v4/static/js/main.6c4bd13e.chunk.js",
-    "main.js.map": "/puzzles-v4/static/js/main.6c4bd13e.chunk.js.map",
+    "main.css": "/puzzles-v4/static/css/main.a7063f66.chunk.css",
+    "main.js": "/puzzles-v4/static/js/main.3a366e49.chunk.js",
+    "main.js.map": "/puzzles-v4/static/js/main.3a366e49.chunk.js.map",
     "runtime-main.js": "/puzzles-v4/static/js/runtime-main.0d405017.js",
     "runtime-main.js.map": "/puzzles-v4/static/js/runtime-main.0d405017.js.map",
-    "static/js/2.5ed06726.chunk.js": "/puzzles-v4/static/js/2.5ed06726.chunk.js",
-    "static/js/2.5ed06726.chunk.js.map": "/puzzles-v4/static/js/2.5ed06726.chunk.js.map",
+    "static/js/2.20e2dc17.chunk.js": "/puzzles-v4/static/js/2.20e2dc17.chunk.js",
+    "static/js/2.20e2dc17.chunk.js.map": "/puzzles-v4/static/js/2.20e2dc17.chunk.js.map",
     "index.html": "/puzzles-v4/index.html",
-    "static/css/main.977049e6.chunk.css.map": "/puzzles-v4/static/css/main.977049e6.chunk.css.map",
-    "static/js/2.5ed06726.chunk.js.LICENSE.txt": "/puzzles-v4/static/js/2.5ed06726.chunk.js.LICENSE.txt",
+    "static/css/main.a7063f66.chunk.css.map": "/puzzles-v4/static/css/main.a7063f66.chunk.css.map",
+    "static/js/2.20e2dc17.chunk.js.LICENSE.txt": "/puzzles-v4/static/js/2.20e2dc17.chunk.js.LICENSE.txt",
     "static/media/Library.css": "/puzzles-v4/static/media/flame-image.7f5aa79d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0d405017.js",
-    "static/js/2.5ed06726.chunk.js",
-    "static/css/main.977049e6.chunk.css",
-    "static/js/main.6c4bd13e.chunk.js"
+    "static/js/2.20e2dc17.chunk.js",
+    "static/css/main.a7063f66.chunk.css",
+    "static/js/main.3a366e49.chunk.js"
   ]
 }
