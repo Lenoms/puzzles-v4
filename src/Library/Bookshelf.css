@@ -17,4 +17,5 @@
     display: flex;
     border-bottom: 5px outset burlywood;
     align-items: flex-end;
+    box-sizing: border-box;
 }

@@ -10,4 +10,5 @@
 
 .app-level-container {
   border: 1px solid black;
+  position: relative;
 }

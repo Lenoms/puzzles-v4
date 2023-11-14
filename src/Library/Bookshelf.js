@@ -12,9 +12,10 @@ function Bookshelf(props) {
   return (
     <div className="bookshelf-container">
       {bookshelves.map((bookshelf, i) => (
-        <div className="bookshelf-shelf">
+        <div className="bookshelf-shelf" key={`bookshelf-${i}`}>
           {bookshelves[i].map((book, j) => (
             <Book
+              key={`book-${i},${j}`}
               colour={book.colour}
               height={book.height}
               level={

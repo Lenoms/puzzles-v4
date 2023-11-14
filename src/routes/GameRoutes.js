@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Library from "../Library/Library";
-import One from "../Levels/One/One";
+import One from "../Levels/one/One";
 
 function GameRoutes() {
   let location = useLocation();
