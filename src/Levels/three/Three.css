@@ -1,0 +1,73 @@
+.level-3-div {
+    width: 100%;
+    height: 100%;
+    background-color:blanchedalmond;
+    display: flex;
+    flex-direction: column;
+}
+
+.dot-row {
+    width: 100%;
+    height: 10%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dot {
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.colour-wizard-box {
+    height: 40%;
+    aspect-ratio: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(253, 205, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.colour-wizard-text {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid grey;
+    color: red;
+    padding: 10px;
+}
+
+.colour-wizard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.colour-wizard-head {
+    width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 80px solid midnightblue;
+}
+
+.colour-wizard-body {
+        height: 100px;
+        width: 100px;
+        background-image: linear-gradient( 89.7deg, rgba(223,0,0,1) 2.7%, rgba(214,91,0,1) 15.1%, rgba(233,245,0,1) 29.5%, rgba(23,255,17,1) 45.8%, rgba(29,255,255,1) 61.5%, rgba(5,17,255,1) 76.4%, rgba(202,0,253,1) 92.4% );
+        border-radius: 50%;
+}

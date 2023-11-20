@@ -4,7 +4,8 @@ Level ideas
 - Binary torches - 3 of them? depending on the value of the binary number, they show different letters. When ordered 1-7, they make the password
 - Piano level - maybe the things you need to play are in previous levels
 - Torch and darkness level, like my one from round 2. 
-- A level where it just shows html text? one css property is slightly different. Change that css property in the actual code and somehow that reveals the answer... is that possible?
+- A level where it just shows html text? one css property is slightly different. Change that css property in the actual code and somehow that reveals the answer... is that possible?\
+- Sphinx level: has three riddles. "I have keys but open no locks. I have space but no room. You can enter, but you can't go inside. " (keyboard)
 
 Setting
 
@@ -12,3 +13,19 @@ The game is set in a library. Clicking into each book shows a level, and the aim
 
 Potential end? They player finds one more book, with the story of their own gameplay in it. It ends by saying how the player comes to understand that their mastery of the books has made them the master of the library, and they will ensure the libraries secrets are kept safe forever. The end.
 I like the idea of having timestamps in the book? How would this work if the player leaves the game and comes back... maybe we dont care.
+
+The colour wizard?
+
+A weird wizard we encounter early. They tell us they are called the colour wizard and the code to get their password by identifying colours in a sequence.
+Then throughout the game, colour starts getting sucked from the library and books. Halfway through or so, we learn from another character
+that the password we gave was an incantation allowing colour wizard to exit its book and sap colour. 
+The rest of the game has a darker theme. Each of the books we visit should contribute to the story. 
+The solution is in the answers we gave to each book. In the final book, we learn what letters to take from
+each previous answer. Typing them in gives a new sequence of colours. We are told by the other wiser character
+that we need to change our answer in the colour wizard level. We do so. Some kind of fun animation, and colour is restored
+to the library. End game. Can still have our potential ending above actually, which could be cool.
+
+Aesthetic ideas
+
+- Transitions into the books (like fading into a new world)
+- Levels have book border around them? Only if you zoom out?

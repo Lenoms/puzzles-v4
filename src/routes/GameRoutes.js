@@ -3,6 +3,7 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import Library from "../Library/Library";
 import One from "../Levels/one/One";
 import Two from "../Levels/two/Two";
+import Three from "../Levels/three/Three";
 
 function GameRoutes() {
   let location = useLocation();
@@ -11,6 +12,7 @@ function GameRoutes() {
       <Route exact path="/puzzles-v4" element={<Library />} />
       <Route exact path="/puzzles-v4/one" element={<One />} />
       <Route exact path="/puzzles-v4/two" element={<Two />} />
+      <Route exact path="/puzzles-v4/three" element={<Three />} />
     </Routes>
   );
 }

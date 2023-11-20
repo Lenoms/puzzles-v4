@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import "./Two.css";
 import { letterMapping } from "./Two.constants";
 
-function One() {
+function Two() {
     const [torchArray, setTorchArray] = useState([false,false,false,false])
 
     const handleToggle = (index, state) => {
@@ -33,4 +33,4 @@ function One() {
     );
 }
 
-export default One;
+export default Two;
