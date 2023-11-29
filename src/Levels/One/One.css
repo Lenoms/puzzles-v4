@@ -1,14 +1,67 @@
 .level-1-div {
     height: 100%;
     width: 100%;
-    background-color: aquamarine;
+    background-color: palegreen;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
-.level-1-container {
-    height: 10%;
-    width: 10%;
-    background-color: red;
+.flower-container {
+    width: 30px;
+    height: 30px;
+    position: absolute;
 }
+
+
+.flower {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .center {
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: wheat;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .petal {
+    width: 30%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform-origin: center 150%;
+  }
+  .petal:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  .petal:nth-child(2) {
+    transform: rotate(90deg);
+  }
+  .petal:nth-child(3) {
+    transform: rotate(135deg);
+  }
+  .petal:nth-child(4) {
+    transform: rotate(180deg);
+  }
+  .petal:nth-child(5) {
+    transform: rotate(225deg);
+  }
+  .petal:nth-child(6) {
+    transform: rotate(270deg);
+  }
+  .petal:nth-child(7) {
+    transform: rotate(315deg);
+  }
+  .petal:nth-child(8) {
+    transform: rotate(360deg);
+  }

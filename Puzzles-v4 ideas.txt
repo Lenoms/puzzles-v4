@@ -6,7 +6,7 @@ Level ideas
 - Torch and darkness level, like my one from round 2. 
 - A level where it just shows html text? one css property is slightly different. Change that css property in the actual code and somehow that reveals the answer... is that possible?\
 - Sphinx level: has three riddles. "I have keys but open no locks. I have space but no room. You can enter, but you can't go inside. " (keyboard)
-
+- A level where the letters are just literally hidden in the css landscape. I'm  picturing a castle scene for this one.
 Setting
 
 The game is set in a library. Clicking into each book shows a level, and the aim is to get the title of each book.
