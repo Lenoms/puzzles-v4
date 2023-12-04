@@ -1,0 +1,97 @@
+.friend-container {
+    width: 200px;
+    aspect-ratio: 1;
+    background: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.friend-dialogue-box {
+    width: 100%;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 90%;
+    bottom: 50%;
+    background-color: white;
+    border-radius: 10%;
+    z-index: 10;
+}
+
+.friend-dialogue-box-point {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 60px solid white;
+	position: absolute;
+	top: 45%;
+	left: -10%;
+	transform: rotate(60deg);
+}
+
+.friend {
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.friend-head {
+    height: 30%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: rgb(255, 189, 255);
+    border: 1px solid;
+    border-width: 20px 0 0 0;
+    border-color: rgb(119, 0, 255) black black black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 10px;
+}
+
+.friend-eyes {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.friend-eye {
+    width:20%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.friend-mouth {
+    width:40%;
+    height: 2%;
+    border:solid 1px #000;
+    border-color:transparent #000 #000 #000;
+    border-radius: 0 0 200px 200px;
+}
+
+.friend-body {
+    height: 45%;
+    width: 40%;
+    border: 1px solid grey;
+    border-radius: 30px 30px 5px 5px;
+}
+
+.friend-legs {
+    height: 25%;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.friend-leg {
+    height: 100%;
+    width: 30%;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+}
+  
