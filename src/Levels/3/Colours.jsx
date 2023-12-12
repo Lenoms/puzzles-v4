@@ -2,17 +2,17 @@ import { useState } from 'react'
 import AnswerAndHintBox from "../../components/AnswerAndHintBox";
 import ColourWizard from './ColourWizard'
 import Dot from './Dot'
-import { dotArray, wizardAnswer, wizardText } from './Three.constants'
-import './Three.css'
+import { dotArray, wizardAnswer, wizardText } from './Colours.constants'
+import './Colours.css'
 
-function Three () {
+function Colours () {
     const [showWizardText, setShowWizardText] = useState(false)
 
     const toggleText = () => {
         setShowWizardText(!showWizardText)
     }
 
-    return <div className='level-3-div'>
+    return <div className='level-colours-div'>
          <AnswerAndHintBox />
         {dotArray.map((dotRow) => {
            return <div className='dot-row'>
@@ -28,4 +28,4 @@ function Three () {
     </div>
 }
 
-export default Three
+export default Colours

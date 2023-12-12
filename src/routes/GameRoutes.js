@@ -1,20 +1,22 @@
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Library from "../Library/Library";
-import One from "../Levels/one/One";
-import Two from "../Levels/two/Two";
-import Three from "../Levels/three/Three";
-import Four from "../Levels/four/Four";
+import Four from "../Levels/4/Four";
+import Flowers from "../Levels/1/Flowers";
+import Colours from "../Levels/3/Colours";
+import Torches from "../Levels/11/Torches";
+import Castle from "../Levels/2/Castle";
 
 function GameRoutes() {
   let location = useLocation();
   return (
     <Routes location={location} key={location.pathname}>
       <Route exact path="/puzzles-v4" element={<Library />} />
-      <Route exact path="/puzzles-v4/one" element={<One />} />
-      <Route exact path="/puzzles-v4/two" element={<Two />} />
-      <Route exact path="/puzzles-v4/three" element={<Three />} />
+      <Route exact path="/puzzles-v4/one" element={<Flowers />} />
+      <Route exact path="/puzzles-v4/two" element={<Castle />} />
+      <Route exact path="/puzzles-v4/three" element={<Colours />} />
       <Route exact path="/puzzles-v4/four" element={<Four />} />
+      <Route exact path="/puzzles-v4/eleven" element={<Torches />} />
     </Routes>
   );
 }

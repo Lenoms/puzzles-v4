@@ -1,4 +1,4 @@
-import { lettersByColour } from "./Three.constants";
+import { lettersByColour } from "./Colours.constants";
 
 export function getColoursFromString(inputString) {
   const colours = [];

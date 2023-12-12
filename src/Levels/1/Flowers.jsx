@@ -1,13 +1,13 @@
 import AnswerAndHintBox from "../../components/AnswerAndHintBox";
 import { Flower } from "./Flower";
 import { Friend } from "./Friend";
-import "./One.css";
-import { generateFlowers } from "./One.service";
+import "./Flowers.css";
+import { generateFlowers } from "./Flowers.service";
 
-function One() {
+function Flowers() {
   const flowers = generateFlowers(50)
   return (
-    <div className="level-1-div">
+    <div className="level-flowers-div">
       <AnswerAndHintBox />
       {flowers.map((flower) => {
         return <div className="flower-container" style={{top: flower.top, left: flower.left}}>
@@ -24,4 +24,4 @@ function One() {
   );
 }
 
-export default One;
+export default Flowers;

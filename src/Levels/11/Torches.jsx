@@ -1,10 +1,10 @@
 import AnswerAndHintBox from "../../components/AnswerAndHintBox";
 import { Torch } from "./Torch";
 import { useEffect, useState } from "react"
-import "./Two.css";
-import { letterMapping } from "./Two.constants";
+import "./Torches.css";
+import { letterMapping } from "./Torches.constants";
 
-function Two() {
+function Torches() {
     const [torchArray, setTorchArray] = useState([false,false,false,false])
 
     const handleToggle = (index, state) => {
@@ -16,11 +16,11 @@ function Two() {
     useEffect(() => {
         const decimalValue = parseInt(torchArray.map(Number).join(''), 2);
 
-        document.getElementsByClassName('level-2-answer-container')[0].innerHTML=letterMapping[decimalValue]
+        document.getElementsByClassName('level-torches-answer-container')[0].innerHTML=letterMapping[decimalValue]
 
     }, [torchArray])
     return (
-        <div className="level-2-div">
+        <div className="level-torches-div">
             <AnswerAndHintBox />
             <div className="torch-container">
                 <Torch index={0} handleToggle={handleToggle}/>
@@ -28,9 +28,9 @@ function Two() {
                 <Torch index={2} handleToggle={handleToggle}/>
                 <Torch index={3} handleToggle={handleToggle}/>
             </div>
-            <div className="level-2-answer-container"></div>
+            <div className="level-torches-answer-container"></div>
         </div>
     );
 }
 
-export default Two;
+export default Torches;

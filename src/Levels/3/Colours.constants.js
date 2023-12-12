@@ -1,4 +1,4 @@
-import { generateDotArray, getColoursFromString } from "./Three.service";
+import { generateDotArray, getColoursFromString } from "./Colours.service";
 
 export const lettersByColour = {
   "rgb(255, 0, 0)": "C", // Red
