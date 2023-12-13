@@ -3,3 +3,22 @@
     width: 100%;
     background-color: green;
 }
+
+.castle-container {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.path-container {
+    width: 50%;
+    position: absolute;
+    top: 63.5%;
+    right: 15%;
+}
+
+.cabbage-container {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
