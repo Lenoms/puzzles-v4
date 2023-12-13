@@ -4,21 +4,33 @@
     background-color: green;
 }
 
-.castle-container {
+.images-container {
     position: absolute;
-    top: 5%;
+    height: 70%;
+    aspect-ratio: 1;
     right: 5%;
+    top: 5%;
 }
 
-.path-container {
-    width: 50%;
+.images-container img {
     position: absolute;
-    top: 63.5%;
-    right: 15%;
+    width: 100%;
 }
 
-.cabbage-container {
-    position: absolute;
-    top: 50%;
-    left: 30%;
+.castle-image {
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.75);
+    clip-path: inset(10px 0 -15px 1px);
+}
+
+.path-image {
+    top: 89.5%;
+    right: 40%;
+    z-index: 2;
+}
+
+.cabbage-cart-image {
+    top: 60%;
+    right: 75%;
+    z-index: 3;
 }

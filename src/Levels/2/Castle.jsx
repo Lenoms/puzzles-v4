@@ -8,15 +8,12 @@ function Castle() {
   return (
     <div className="level-castle-div">
       <AnswerAndHintBox />
-      <div className="castle-container">
-        <img src={castle}></img>
+      <div className="images-container">
+        <img className="castle-image" src={castle}></img>
+        <img className="path-image" style={{width: "100%"}} src={path}></img>
+        <img className="cabbage-cart-image" src={cabbageCart}></img>
       </div>
-      <div className="path-container">
-        <img style={{width: "100%"}} src={path}></img>
-      </div>
-      <div className="cabbage-container">
-        <img src={cabbageCart}></img>
-      </div>
+
     </div>
   );
 }
