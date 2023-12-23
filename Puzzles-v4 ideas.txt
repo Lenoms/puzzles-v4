@@ -8,6 +8,12 @@ Level ideas
 - Sphinx level: has three riddles. "I have keys but open no locks. I have space but no room. You can enter, but you can't go inside. " (keyboard)
 - A level where the letters are just literally hidden in the css landscape. I'm  picturing a castle scene for this one.
 Setting
+- I reckon something where moving the mouse makes an effect that hides the answer somehow would be cool. Look at this video:
+ https://www.youtube.com/watch?v=G9207EJySaA
+ - Wow look at the effect in this video too. https://www.youtube.com/watch?v=oIm6qKTtmH4. Is there a puzzle idea here...?
+ building here... a code effect. black background, green text. The text is constantly changing like matrix/code effect. But 
+ when you move the mouse, the letter that is being hovered changes to a fixed letter, everything else still moving. The fixed
+ letter changes each time the mouse moves, spelling the word over and over.
 
 The game is set in a library. Clicking into each book shows a level, and the aim is to get the title of each book.
 
