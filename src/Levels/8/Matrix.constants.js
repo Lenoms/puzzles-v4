@@ -1,0 +1,1 @@
+export const MATRIX_SOLUTION = "MAINFRAME";
