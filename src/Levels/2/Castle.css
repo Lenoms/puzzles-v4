@@ -2,6 +2,8 @@
     height: 100%;
     width: 100%;
     background-color: green;
+    min-width: 1400px; /* Set your desired minimum width */
+    margin: 0 auto;
 }
 
 .sky {
@@ -46,10 +48,13 @@
 }
 
 .village-images-container {
+    z-index: 10;
     position: absolute;
     bottom: 12%;
     height: 30%;
     width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .house-image {
