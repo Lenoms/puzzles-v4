@@ -6,6 +6,7 @@
   align-items: center;
   background-color: whitesmoke;
   overflow: hidden;
+  position: relative;
 }
 
 .app-level-container {
